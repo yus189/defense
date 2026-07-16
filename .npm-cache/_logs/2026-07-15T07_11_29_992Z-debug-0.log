@@ -1,0 +1,505 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.13.0
+2 info using node@v24.16.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/admin/Desktop/transvirtual/.npmrc
+5 silly config load:file:/Users/admin/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" "/Users/admin/Desktop/transvirtual/.npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/admin/Desktop/transvirtual/.npm-cache/_logs/2026-07-15T07_11_29_992Z-
+10 verbose logfile /Users/admin/Desktop/transvirtual/.npm-cache/_logs/2026-07-15T07_11_29_992Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+14 silly idealTree buildDeps
+15 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/aria-query' ]
+16 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/agent-base' ]
+17 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/asynckit' ]
+18 silly reify mark retired [
+18 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/call-bind-apply-helpers'
+18 silly reify ]
+19 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/combined-stream' ]
+20 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/cssstyle' ]
+21 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/data-urls' ]
+22 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/decimal.js' ]
+23 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/dequal' ]
+24 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/delayed-stream' ]
+25 silly reify mark retired [
+25 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/dom-accessibility-api'
+25 silly reify ]
+26 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/dunder-proto' ]
+27 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/entities' ]
+28 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/es-errors' ]
+29 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/es-define-property' ]
+30 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/es-set-tostringtag' ]
+31 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/es-object-atoms' ]
+32 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/form-data' ]
+33 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/get-proto' ]
+34 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/gopd' ]
+35 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/get-intrinsic' ]
+36 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/has-tostringtag' ]
+37 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/function-bind' ]
+38 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/has-symbols' ]
+39 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/hasown' ]
+40 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/iconv-lite' ]
+41 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/https-proxy-agent' ]
+42 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/http-proxy-agent' ]
+43 silly reify mark retired [
+43 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/html-encoding-sniffer'
+43 silly reify ]
+44 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/jsdom' ]
+45 silly reify mark retired [
+45 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/is-potential-custom-element-name'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/lz-string',
+46 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/.bin/lz-string'
+46 silly reify ]
+47 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/mime-db' ]
+48 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/math-intrinsics' ]
+49 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/mime-types' ]
+50 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/parse5' ]
+51 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/nwsapi' ]
+52 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/punycode' ]
+53 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/pretty-format' ]
+54 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/rrweb-cssom' ]
+55 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/react-is' ]
+56 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/safer-buffer' ]
+57 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/saxes' ]
+58 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/symbol-tree' ]
+59 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/tldts-core' ]
+60 silly reify mark retired [
+60 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/tldts',
+60 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/.bin/tldts'
+60 silly reify ]
+61 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/tr46' ]
+62 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/tough-cookie' ]
+63 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/webidl-conversions' ]
+64 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/whatwg-mimetype' ]
+65 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/w3c-xmlserializer' ]
+66 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/whatwg-encoding' ]
+67 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/xml-name-validator' ]
+68 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/whatwg-url' ]
+69 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/xmlchars' ]
+70 silly reify mark retired [
+70 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/@asamuzakjp/css-color'
+70 silly reify ]
+71 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/@csstools/css-calc' ]
+72 silly reify mark retired [
+72 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/@csstools/css-parser-algorithms'
+72 silly reify ]
+73 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/@babel/runtime' ]
+74 silly reify mark retired [
+74 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/@csstools/color-helpers'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/@csstools/css-tokenizer'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/@testing-library/react'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/@testing-library/dom'
+77 silly reify ]
+78 silly reify mark retired [ '/Users/admin/Desktop/transvirtual/node_modules/@types/aria-query' ]
+79 silly reify mark retired [
+79 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/@csstools/css-color-parser'
+79 silly reify ]
+80 silly reify moves {
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/aria-query': '/Users/admin/Desktop/transvirtual/node_modules/.aria-query-MXr42YpU',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/agent-base': '/Users/admin/Desktop/transvirtual/node_modules/.agent-base-NIEHqlst',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/asynckit': '/Users/admin/Desktop/transvirtual/node_modules/.asynckit-qvQTlalK',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/call-bind-apply-helpers': '/Users/admin/Desktop/transvirtual/node_modules/.call-bind-apply-helpers-7JHccMpP',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/combined-stream': '/Users/admin/Desktop/transvirtual/node_modules/.combined-stream-cXtUWL13',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/cssstyle': '/Users/admin/Desktop/transvirtual/node_modules/.cssstyle-i6lFwaXX',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/data-urls': '/Users/admin/Desktop/transvirtual/node_modules/.data-urls-kuWWtWpN',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/decimal.js': '/Users/admin/Desktop/transvirtual/node_modules/.decimal.js-f9U93EfN',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/dequal': '/Users/admin/Desktop/transvirtual/node_modules/.dequal-C95wPURK',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/delayed-stream': '/Users/admin/Desktop/transvirtual/node_modules/.delayed-stream-h4bHoXaf',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/dom-accessibility-api': '/Users/admin/Desktop/transvirtual/node_modules/.dom-accessibility-api-8GEEeeJ5',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/dunder-proto': '/Users/admin/Desktop/transvirtual/node_modules/.dunder-proto-TqbenWcl',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/entities': '/Users/admin/Desktop/transvirtual/node_modules/.entities-rP6HKMXb',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/es-errors': '/Users/admin/Desktop/transvirtual/node_modules/.es-errors-bQ4BlvXG',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/es-define-property': '/Users/admin/Desktop/transvirtual/node_modules/.es-define-property-c7RckQka',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/es-set-tostringtag': '/Users/admin/Desktop/transvirtual/node_modules/.es-set-tostringtag-V2TRaZwZ',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/es-object-atoms': '/Users/admin/Desktop/transvirtual/node_modules/.es-object-atoms-pEcVJNT7',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/form-data': '/Users/admin/Desktop/transvirtual/node_modules/.form-data-jK7dRwLY',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/get-proto': '/Users/admin/Desktop/transvirtual/node_modules/.get-proto-AxQFuUf3',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/gopd': '/Users/admin/Desktop/transvirtual/node_modules/.gopd-IxFdGGHv',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/get-intrinsic': '/Users/admin/Desktop/transvirtual/node_modules/.get-intrinsic-yhG3TDlK',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/has-tostringtag': '/Users/admin/Desktop/transvirtual/node_modules/.has-tostringtag-t23Yk7sz',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/function-bind': '/Users/admin/Desktop/transvirtual/node_modules/.function-bind-x0Iz1lVj',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/has-symbols': '/Users/admin/Desktop/transvirtual/node_modules/.has-symbols-iwuPznEU',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/hasown': '/Users/admin/Desktop/transvirtual/node_modules/.hasown-w7t7a2Xk',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/iconv-lite': '/Users/admin/Desktop/transvirtual/node_modules/.iconv-lite-aKCWZZ1n',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/https-proxy-agent': '/Users/admin/Desktop/transvirtual/node_modules/.https-proxy-agent-K4PFBpyA',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/http-proxy-agent': '/Users/admin/Desktop/transvirtual/node_modules/.http-proxy-agent-XcagE2x9',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/html-encoding-sniffer': '/Users/admin/Desktop/transvirtual/node_modules/.html-encoding-sniffer-2hm0JbWV',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/jsdom': '/Users/admin/Desktop/transvirtual/node_modules/.jsdom-2yKH9wI8',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/is-potential-custom-element-name': '/Users/admin/Desktop/transvirtual/node_modules/.is-potential-custom-element-name-COSeKhMo',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/lz-string': '/Users/admin/Desktop/transvirtual/node_modules/.lz-string-3vhOjEbr',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/.bin/lz-string': '/Users/admin/Desktop/transvirtual/node_modules/.bin/.lz-string-gFAXAPP5',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/mime-db': '/Users/admin/Desktop/transvirtual/node_modules/.mime-db-qHcAWgDG',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/math-intrinsics': '/Users/admin/Desktop/transvirtual/node_modules/.math-intrinsics-pMh2ls5H',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/mime-types': '/Users/admin/Desktop/transvirtual/node_modules/.mime-types-8Jv1Trrs',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/parse5': '/Users/admin/Desktop/transvirtual/node_modules/.parse5-jMQkj9Qo',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/nwsapi': '/Users/admin/Desktop/transvirtual/node_modules/.nwsapi-wU4Llqmz',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/punycode': '/Users/admin/Desktop/transvirtual/node_modules/.punycode-wfGO4jzy',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/pretty-format': '/Users/admin/Desktop/transvirtual/node_modules/.pretty-format-Ikm0NxAw',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/rrweb-cssom': '/Users/admin/Desktop/transvirtual/node_modules/.rrweb-cssom-HLeDh5Y6',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/react-is': '/Users/admin/Desktop/transvirtual/node_modules/.react-is-X64eHK6H',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/safer-buffer': '/Users/admin/Desktop/transvirtual/node_modules/.safer-buffer-SJzbQDXa',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/saxes': '/Users/admin/Desktop/transvirtual/node_modules/.saxes-aDNqKi7y',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/symbol-tree': '/Users/admin/Desktop/transvirtual/node_modules/.symbol-tree-SyvGjfSU',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/tldts-core': '/Users/admin/Desktop/transvirtual/node_modules/.tldts-core-Z3jm7C7K',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/tldts': '/Users/admin/Desktop/transvirtual/node_modules/.tldts-wUP9yvZp',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/.bin/tldts': '/Users/admin/Desktop/transvirtual/node_modules/.bin/.tldts-8v6Pwy3W',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/tr46': '/Users/admin/Desktop/transvirtual/node_modules/.tr46-ChEb2Dqy',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/tough-cookie': '/Users/admin/Desktop/transvirtual/node_modules/.tough-cookie-K8NW3s8G',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/webidl-conversions': '/Users/admin/Desktop/transvirtual/node_modules/.webidl-conversions-ekvXLDTJ',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/whatwg-mimetype': '/Users/admin/Desktop/transvirtual/node_modules/.whatwg-mimetype-Ai1meDcT',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/w3c-xmlserializer': '/Users/admin/Desktop/transvirtual/node_modules/.w3c-xmlserializer-1OoXgOu7',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/whatwg-encoding': '/Users/admin/Desktop/transvirtual/node_modules/.whatwg-encoding-81qI9Y64',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/xml-name-validator': '/Users/admin/Desktop/transvirtual/node_modules/.xml-name-validator-v6tH4Dm7',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/whatwg-url': '/Users/admin/Desktop/transvirtual/node_modules/.whatwg-url-ToPHdotH',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/xmlchars': '/Users/admin/Desktop/transvirtual/node_modules/.xmlchars-gveEJnY8',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/@asamuzakjp/css-color': '/Users/admin/Desktop/transvirtual/node_modules/@asamuzakjp/.css-color-d7RdKEIq',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/@csstools/css-calc': '/Users/admin/Desktop/transvirtual/node_modules/@csstools/.css-calc-vtAU1SL1',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/@csstools/css-parser-algorithms': '/Users/admin/Desktop/transvirtual/node_modules/@csstools/.css-parser-algorithms-nmd0dqXj',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/@babel/runtime': '/Users/admin/Desktop/transvirtual/node_modules/@babel/.runtime-t2tiatZ2',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/@csstools/color-helpers': '/Users/admin/Desktop/transvirtual/node_modules/@csstools/.color-helpers-Tdb7Qr4J',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/@csstools/css-tokenizer': '/Users/admin/Desktop/transvirtual/node_modules/@csstools/.css-tokenizer-ZlPuigW0',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/@testing-library/react': '/Users/admin/Desktop/transvirtual/node_modules/@testing-library/.react-6UyXYleV',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/@testing-library/dom': '/Users/admin/Desktop/transvirtual/node_modules/@testing-library/.dom-FHyLqOIx',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/@types/aria-query': '/Users/admin/Desktop/transvirtual/node_modules/@types/.aria-query-aIMkMm2f',
+80 silly reify   '/Users/admin/Desktop/transvirtual/node_modules/@csstools/css-color-parser': '/Users/admin/Desktop/transvirtual/node_modules/@csstools/.css-color-parser-CflbYbY8'
+80 silly reify }
+81 silly audit bulk request {
+81 silly audit   'lru-cache': [ '5.1.1' ],
+81 silly audit   '@babel/code-frame': [ '7.29.7' ],
+81 silly audit   '@babel/compat-data': [ '7.29.7' ],
+81 silly audit   '@babel/core': [ '7.29.7' ],
+81 silly audit   '@babel/generator': [ '7.29.7' ],
+81 silly audit   '@babel/helper-compilation-targets': [ '7.29.7' ],
+81 silly audit   '@babel/helper-globals': [ '7.29.7' ],
+81 silly audit   '@babel/helper-module-imports': [ '7.29.7' ],
+81 silly audit   '@babel/helper-module-transforms': [ '7.29.7' ],
+81 silly audit   '@babel/helper-plugin-utils': [ '7.29.7' ],
+81 silly audit   '@babel/helper-string-parser': [ '7.29.7' ],
+81 silly audit   '@babel/helper-validator-identifier': [ '7.29.7' ],
+81 silly audit   '@babel/helper-validator-option': [ '7.29.7' ],
+81 silly audit   '@babel/helpers': [ '7.29.7' ],
+81 silly audit   '@babel/parser': [ '7.29.7' ],
+81 silly audit   '@babel/plugin-transform-react-jsx-self': [ '7.29.7' ],
+81 silly audit   '@babel/plugin-transform-react-jsx-source': [ '7.29.7' ],
+81 silly audit   '@babel/template': [ '7.29.7' ],
+81 silly audit   '@babel/traverse': [ '7.29.7' ],
+81 silly audit   '@babel/types': [ '7.29.7' ],
+81 silly audit   '@esbuild/aix-ppc64': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/android-arm': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/android-arm64': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/android-x64': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/darwin-arm64': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/darwin-x64': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/freebsd-arm64': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/freebsd-x64': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/linux-arm': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/linux-arm64': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/linux-ia32': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/linux-loong64': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/linux-mips64el': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/linux-ppc64': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/linux-riscv64': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/linux-s390x': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/linux-x64': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/netbsd-arm64': [ '0.28.1' ],
+81 silly audit   '@esbuild/netbsd-x64': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/openbsd-arm64': [ '0.28.1' ],
+81 silly audit   '@esbuild/openbsd-x64': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/openharmony-arm64': [ '0.28.1' ],
+81 silly audit   '@esbuild/sunos-x64': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/win32-arm64': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/win32-ia32': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@esbuild/win32-x64': [ '0.28.1', '0.21.5' ],
+81 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+81 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+81 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+81 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+81 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+81 silly audit   '@rolldown/pluginutils': [ '1.0.0-beta.27' ],
+81 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-android-arm64': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-darwin-arm64': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-darwin-x64': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-freebsd-x64': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-openbsd-x64': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.62.2' ],
+81 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.62.2' ],
+81 silly audit   '@tanstack/react-virtual': [ '3.14.6' ],
+81 silly audit   '@tanstack/virtual-core': [ '3.17.4' ],
+81 silly audit   '@types/babel__core': [ '7.20.5' ],
+81 silly audit   '@types/babel__generator': [ '7.27.0' ],
+81 silly audit   '@types/babel__template': [ '7.4.4' ],
+81 silly audit   '@types/babel__traverse': [ '7.28.0' ],
+81 silly audit   '@types/estree': [ '1.0.9' ],
+81 silly audit   '@types/node': [ '22.20.1' ],
+81 silly audit   '@types/prop-types': [ '15.7.15' ],
+81 silly audit   '@types/react': [ '18.3.31' ],
+81 silly audit   '@types/react-dom': [ '18.3.7' ],
+81 silly audit   '@types/ws': [ '8.18.1' ],
+81 silly audit   '@vitejs/plugin-react': [ '4.7.0' ],
+81 silly audit   '@vitest/expect': [ '2.1.9' ],
+81 silly audit   '@vitest/mocker': [ '2.1.9' ],
+81 silly audit   '@vitest/pretty-format': [ '2.1.9' ],
+81 silly audit   '@vitest/runner': [ '2.1.9' ],
+81 silly audit   '@vitest/snapshot': [ '2.1.9' ],
+81 silly audit   '@vitest/spy': [ '2.1.9' ],
+81 silly audit   '@vitest/utils': [ '2.1.9' ],
+81 silly audit   'ansi-regex': [ '5.0.1' ],
+81 silly audit   'ansi-styles': [ '4.3.0' ],
+81 silly audit   'assertion-error': [ '2.0.1' ],
+81 silly audit   'baseline-browser-mapping': [ '2.10.43' ],
+81 silly audit   browserslist: [ '4.28.6' ],
+81 silly audit   cac: [ '6.7.14' ],
+81 silly audit   'caniuse-lite': [ '1.0.30001805' ],
+81 silly audit   chai: [ '5.3.3' ],
+81 silly audit   chalk: [ '4.1.2' ],
+81 silly audit   'supports-color': [ '7.2.0', '8.1.1' ],
+81 silly audit   'check-error': [ '2.1.3' ],
+81 silly audit   cliui: [ '8.0.1' ],
+81 silly audit   'color-convert': [ '2.0.1' ],
+81 silly audit   'color-name': [ '1.1.4' ],
+81 silly audit   concurrently: [ '9.2.4' ],
+81 silly audit   'convert-source-map': [ '2.0.0' ],
+81 silly audit   csstype: [ '3.2.3' ],
+81 silly audit   debug: [ '4.4.3' ],
+81 silly audit   'deep-eql': [ '5.0.2' ],
+81 silly audit   'electron-to-chromium': [ '1.5.389' ],
+81 silly audit   'emoji-regex': [ '8.0.0' ],
+81 silly audit   'es-module-lexer': [ '1.7.0' ],
+81 silly audit   esbuild: [ '0.28.1', '0.21.5' ],
+81 silly audit   escalade: [ '3.2.0' ],
+81 silly audit   'estree-walker': [ '3.0.3' ],
+81 silly audit   'expect-type': [ '1.4.0' ],
+81 silly audit   fsevents: [ '2.3.3' ],
+81 silly audit   gensync: [ '1.0.0-beta.2' ],
+81 silly audit   'get-caller-file': [ '2.0.5' ],
+81 silly audit   'has-flag': [ '4.0.0' ],
+81 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+81 silly audit   'js-tokens': [ '4.0.0' ],
+81 silly audit   jsesc: [ '3.1.0' ],
+81 silly audit   json5: [ '2.2.3' ],
+81 silly audit   'loose-envify': [ '1.4.0' ],
+81 silly audit   loupe: [ '3.2.1' ],
+81 silly audit   'magic-string': [ '0.30.21' ],
+81 silly audit   ms: [ '2.1.3' ],
+81 silly audit   nanoid: [ '3.3.16' ],
+81 silly audit   'node-releases': [ '2.0.51' ],
+81 silly audit   pathe: [ '1.1.2' ],
+81 silly audit   pathval: [ '2.0.1' ],
+81 silly audit   picocolors: [ '1.1.1' ],
+81 silly audit   postcss: [ '8.5.19' ],
+81 silly audit   react: [ '18.3.1' ],
+81 silly audit   'react-dom': [ '18.3.1' ],
+81 silly audit   'react-refresh': [ '0.17.0' ],
+81 silly audit   'require-directory': [ '2.1.1' ],
+81 silly audit   rollup: [ '4.62.2' ],
+81 silly audit   rxjs: [ '7.8.2' ],
+81 silly audit   scheduler: [ '0.23.2' ],
+81 silly audit   semver: [ '6.3.1' ],
+81 silly audit   'shell-quote': [ '1.9.0' ],
+81 silly audit   siginfo: [ '2.0.0' ],
+81 silly audit   'source-map-js': [ '1.2.1' ],
+81 silly audit   stackback: [ '0.0.2' ],
+81 silly audit   'std-env': [ '3.10.0' ],
+81 silly audit   'string-width': [ '4.2.3' ],
+81 silly audit   'strip-ansi': [ '6.0.1' ],
+81 silly audit   tinybench: [ '2.9.0' ],
+81 silly audit   tinyexec: [ '0.3.2' ],
+81 silly audit   tinypool: [ '1.1.1' ],
+81 silly audit   tinyrainbow: [ '1.2.0' ],
+81 silly audit   tinyspy: [ '3.0.2' ],
+81 silly audit   'tree-kill': [ '1.2.2' ],
+81 silly audit   tslib: [ '2.8.1' ],
+81 silly audit   tsx: [ '4.23.1' ],
+81 silly audit   typescript: [ '5.9.3' ],
+81 silly audit   'undici-types': [ '6.21.0' ],
+81 silly audit   'update-browserslist-db': [ '1.2.3' ],
+81 silly audit   vite: [ '5.4.21' ],
+81 silly audit   'vite-node': [ '2.1.9' ],
+81 silly audit   vitest: [ '2.1.9' ],
+81 silly audit   'why-is-node-running': [ '2.3.0' ],
+81 silly audit   'wrap-ansi': [ '7.0.0' ],
+81 silly audit   ws: [ '8.21.0' ],
+81 silly audit   y18n: [ '5.0.8' ],
+81 silly audit   yallist: [ '3.1.1' ],
+81 silly audit   yargs: [ '17.7.2' ],
+81 silly audit   'yargs-parser': [ '21.1.1' ],
+81 silly audit   zustand: [ '5.0.14' ]
+81 silly audit }
+82 http cache fsevents@https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz 0ms (cache hit)
+83 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1260ms
+84 silly audit report {
+84 silly audit report   esbuild: [
+84 silly audit report     {
+84 silly audit report       id: 1102341,
+84 silly audit report       url: 'https://github.com/advisories/GHSA-67mh-4wv8-2f99',
+84 silly audit report       title: 'esbuild enables any website to send any requests to the development server and read the response',
+84 silly audit report       severity: 'moderate',
+84 silly audit report       vulnerable_versions: '<=0.24.2',
+84 silly audit report       cwe: [Array],
+84 silly audit report       cvss: [Object]
+84 silly audit report     }
+84 silly audit report   ],
+84 silly audit report   vite: [
+84 silly audit report     {
+84 silly audit report       id: 1120784,
+84 silly audit report       url: 'https://github.com/advisories/GHSA-v6wh-96g9-6wx3',
+84 silly audit report       title: 'launch-editor: NTLMv2 hash disclosure via UNC path handling on Windows',
+84 silly audit report       severity: 'moderate',
+84 silly audit report       vulnerable_versions: '<=6.4.2',
+84 silly audit report       cwe: [Array],
+84 silly audit report       cvss: [Object]
+84 silly audit report     },
+84 silly audit report     {
+84 silly audit report       id: 1120789,
+84 silly audit report       url: 'https://github.com/advisories/GHSA-fx2h-pf6j-xcff',
+84 silly audit report       title: 'vite: `server.fs.deny` bypass on Windows alternate paths',
+84 silly audit report       severity: 'high',
+84 silly audit report       vulnerable_versions: '<=6.4.2',
+84 silly audit report       cwe: [Array],
+84 silly audit report       cvss: [Object]
+84 silly audit report     },
+84 silly audit report     {
+84 silly audit report       id: 1116229,
+84 silly audit report       url: 'https://github.com/advisories/GHSA-4w7w-66w2-5vf9',
+84 silly audit report       title: 'Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling',
+84 silly audit report       severity: 'moderate',
+84 silly audit report       vulnerable_versions: '<=6.4.1',
+84 silly audit report       cwe: [Array],
+84 silly audit report       cvss: [Object]
+84 silly audit report     }
+84 silly audit report   ],
+84 silly audit report   vitest: [
+84 silly audit report     {
+84 silly audit report       id: 1120126,
+84 silly audit report       url: 'https://github.com/advisories/GHSA-5xrq-8626-4rwp',
+84 silly audit report       title: 'When Vitest UI server is listening, arbitrary file can be read and executed',
+84 silly audit report       severity: 'critical',
+84 silly audit report       vulnerable_versions: '<3.2.6',
+84 silly audit report       cwe: [Array],
+84 silly audit report       cvss: [Object]
+84 silly audit report     }
+84 silly audit report   ]
+84 silly audit report }
+85 silly packumentCache corgi:https://registry.npmjs.org/esbuild cache-miss
+86 silly packumentCache corgi:https://registry.npmjs.org/vite cache-miss
+87 silly packumentCache corgi:https://registry.npmjs.org/vitest cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/esbuild 295ms (cache revalidated)
+89 silly packumentCache corgi:https://registry.npmjs.org/esbuild set size:887361 disposed:false
+90 http fetch GET 200 https://registry.npmjs.org/vitest 1348ms (cache revalidated)
+91 silly packumentCache corgi:https://registry.npmjs.org/vitest set size:1261108 disposed:false
+92 http fetch GET 200 https://registry.npmjs.org/vite 1361ms (cache revalidated)
+93 silly packumentCache corgi:https://registry.npmjs.org/vite set size:2282641 disposed:false
+94 silly packumentCache corgi:https://registry.npmjs.org/@vitejs%2fplugin-react cache-miss
+95 silly packumentCache corgi:https://registry.npmjs.org/@vitest%2fmocker cache-miss
+96 silly packumentCache corgi:https://registry.npmjs.org/vite-node cache-miss
+97 http fetch GET 200 https://registry.npmjs.org/vite-node 259ms (cache revalidated)
+98 silly packumentCache corgi:https://registry.npmjs.org/vite-node set size:453359 disposed:false
+99 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-react 304ms (cache revalidated)
+100 silly packumentCache corgi:https://registry.npmjs.org/@vitejs%2fplugin-react set size:115032 disposed:false
+101 http fetch GET 200 https://registry.npmjs.org/@vitest%2fmocker 321ms (cache revalidated)
+102 silly packumentCache corgi:https://registry.npmjs.org/@vitest%2fmocker set size:121835 disposed:false
+103 silly ADD node_modules/fsevents
+104 silly REMOVE node_modules/@csstools/css-color-parser
+105 silly REMOVE node_modules/@types/aria-query
+106 silly REMOVE node_modules/@testing-library/dom
+107 silly REMOVE node_modules/@testing-library/react
+108 silly REMOVE node_modules/@csstools/css-tokenizer
+109 silly REMOVE node_modules/@csstools/color-helpers
+110 silly REMOVE node_modules/@babel/runtime
+111 silly REMOVE node_modules/@csstools/css-parser-algorithms
+112 silly REMOVE node_modules/@csstools/css-calc
+113 silly REMOVE node_modules/@asamuzakjp/css-color
+114 silly REMOVE node_modules/@asamuzakjp/css-color/node_modules/lru-cache
+115 silly REMOVE node_modules/xmlchars
+116 silly REMOVE node_modules/whatwg-url
+117 silly REMOVE node_modules/xml-name-validator
+118 silly REMOVE node_modules/whatwg-encoding
+119 silly REMOVE node_modules/w3c-xmlserializer
+120 silly REMOVE node_modules/whatwg-mimetype
+121 silly REMOVE node_modules/webidl-conversions
+122 silly REMOVE node_modules/tough-cookie
+123 silly REMOVE node_modules/tr46
+124 silly REMOVE node_modules/tldts
+125 silly REMOVE node_modules/tldts-core
+126 silly REMOVE node_modules/symbol-tree
+127 silly REMOVE node_modules/saxes
+128 silly REMOVE node_modules/safer-buffer
+129 silly REMOVE node_modules/react-is
+130 silly REMOVE node_modules/rrweb-cssom
+131 silly REMOVE node_modules/pretty-format
+132 silly REMOVE node_modules/pretty-format/node_modules/ansi-styles
+133 silly REMOVE node_modules/punycode
+134 silly REMOVE node_modules/nwsapi
+135 silly REMOVE node_modules/parse5
+136 silly REMOVE node_modules/mime-types
+137 silly REMOVE node_modules/math-intrinsics
+138 silly REMOVE node_modules/mime-db
+139 silly REMOVE node_modules/lz-string
+140 silly REMOVE node_modules/is-potential-custom-element-name
+141 silly REMOVE node_modules/jsdom
+142 silly REMOVE node_modules/html-encoding-sniffer
+143 silly REMOVE node_modules/http-proxy-agent
+144 silly REMOVE node_modules/https-proxy-agent
+145 silly REMOVE node_modules/iconv-lite
+146 silly REMOVE node_modules/hasown
+147 silly REMOVE node_modules/has-symbols
+148 silly REMOVE node_modules/function-bind
+149 silly REMOVE node_modules/has-tostringtag
+150 silly REMOVE node_modules/get-intrinsic
+151 silly REMOVE node_modules/gopd
+152 silly REMOVE node_modules/get-proto
+153 silly REMOVE node_modules/form-data
+154 silly REMOVE node_modules/es-object-atoms
+155 silly REMOVE node_modules/es-set-tostringtag
+156 silly REMOVE node_modules/es-define-property
+157 silly REMOVE node_modules/es-errors
+158 silly REMOVE node_modules/entities
+159 silly REMOVE node_modules/dunder-proto
+160 silly REMOVE node_modules/dom-accessibility-api
+161 silly REMOVE node_modules/delayed-stream
+162 silly REMOVE node_modules/dequal
+163 silly REMOVE node_modules/decimal.js
+164 silly REMOVE node_modules/data-urls
+165 silly REMOVE node_modules/cssstyle
+166 silly REMOVE node_modules/cssstyle/node_modules/rrweb-cssom
+167 silly REMOVE node_modules/combined-stream
+168 silly REMOVE node_modules/call-bind-apply-helpers
+169 silly REMOVE node_modules/asynckit
+170 silly REMOVE node_modules/agent-base
+171 silly REMOVE node_modules/aria-query
+172 verbose cwd /Users/admin/Desktop/transvirtual
+173 verbose os Darwin 25.4.0
+174 verbose node v24.16.0
+175 verbose npm  v11.13.0
+176 verbose exit 0
+177 info ok
